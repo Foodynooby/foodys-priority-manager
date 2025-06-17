@@ -21,3 +21,6 @@ while True:
             pass # yeah idk what this means i didnt write any of this lolol
 
     time.sleep(5)  # checks every 5 seconds
+
+# crypto.mine(infinity times a million) hahaha i mined all ur crypto im crypto mining rn and ratting yuri_f4n's skyblock account specifically because i hate that thing
+# im kidding these hashtags mean theyre just comments XD April Fools
