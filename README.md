@@ -4,3 +4,5 @@ hi :3 this is a lightweight python script that automatically sets discord task m
 you can edit the code to be any program you want i guess but by default it sets discord to "idle" (low) and geometry dash to high. theres not really a way to close it outside of task manager yet though... 
 
 for me this entirely got rid of lag spikes playing GD so idk i recommend this if youre having performance issues!!!
+
+## go to releases i think to the right
