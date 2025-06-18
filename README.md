@@ -12,8 +12,8 @@ by default it just has discord on low and gd on high
 ### how 2 use
 1. download the latest release from the releases page
 2. extract the .zip file
-3. (optional) run foodypriority_config.exe to:
-- add or remove apps
+3. (optional) run foodypriorityconfig.exe to:
+- add or remove apps (find the exact names in the details section of task manager)
 - set their CPU priority
 - change scan interval
 - toggle on/off autostart
