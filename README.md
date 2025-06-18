@@ -9,7 +9,7 @@ you can also optionally use the config.exe to customize what apps you want at wh
 ###### - using the "real time" option can lead to system instability so use that at your own risk (should be fine though!)
 by default it just has Discord on low and GD on high
 
-### how 2 use
+## how 2 use
 1. download the latest release from **Releases** over to the right
 2. extract the .zip file (i recommend WinRAR or 7-Zip)
 3. (optional) run foodypriorityconfig.exe to:
