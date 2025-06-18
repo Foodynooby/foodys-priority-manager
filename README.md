@@ -18,4 +18,4 @@ by default it just has discord on low and gd on high
 - change scan interval
 - toggle on/off autostart
 4. run foodypriority.exe to start the background process!! ;3c
-###### if autostart is enabled, the background process will launch at system startup automatically
+###### (if autostart is enabled, the background process will launch at system startup automatically)
