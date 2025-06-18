@@ -25,7 +25,7 @@ DEFAULT_APPS = [
 
 def set_autostart(enabled: bool):
     app_name = "foodypriority"
-    exe_path = os.path.abspath("your_app.exe")  # adjust to your exe name
+    exe_path = os.path.abspath("foodypriority.exe")
 
     try:
         key = winreg.OpenKey(
