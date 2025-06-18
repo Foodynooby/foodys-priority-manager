@@ -7,19 +7,8 @@ import tkinter as tk
 from tkinter import messagebox
 import sys
 
-def is_already_running():
-    current_pid = os.getpid()
-    current_name = os.path.basename(sys.argv[0]).lower()
-
-    for proc in psutil.process_iter(['pid', 'name']):
-        if proc.info['pid'] != current_pid and proc.info['name'].lower() == current_name:
-            return True
-    return False
-
-if is_already_running():
-    sys.exit()  # exit silently if already running
-
-CONFIG_FILE = "config.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CONFIG_FILE = os.path.join(BASE_DIR, "config.json")
 
 # map config priority names to the psutil names
 PRIORITY_MAP = {
@@ -46,7 +35,7 @@ CURRENT_VERSION = "1.1.0"  # update this with actual app version
 def notify_update(latest_version):
     root = tk.Tk()
     root.withdraw()  # hide main window
-    messagebox.showinfo("Update Available", f"A new version {latest_version} is available!")
+    messagebox.showinfo("foodypriority update available!!", f"a new version {latest_version} is available!")
     root.destroy()
 
 def check_for_update():
@@ -82,10 +71,10 @@ def set_priorities(apps):
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             pass
 
+check_for_update()
 # scanning
 def main():
     while True:
-        check_for_update()
         config = load_config()
         apps = config.get("apps", [])
         interval = config.get("scan_interval", 5)
