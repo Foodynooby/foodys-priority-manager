@@ -3,7 +3,7 @@ hi :3 this is a lightweight python script that automatically sets discord task m
 
 for me this entirely got rid of lag spikes playing GD so idk i recommend this if youre having performance issues!!!
 
-you can also optionally use the config.exe to customize what apps you want at what priority level!!!
+you can also optionally use the config.exe to customize what apps you want at what priority level and toggle on auto-start!!!
 > notes: 
 > - some apps (eg. firefox) are unable to be changed
 > - using the "real time" option can lead to system instability so use that at your own risk (should be fine though!)
