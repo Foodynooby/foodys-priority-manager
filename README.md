@@ -7,6 +7,7 @@ you can also optionally use the config.exe to customize what apps you want at wh
 ###### notes: 
 ###### - some apps (eg. Firefox) are unable to be changed idrk why
 ###### - using the "real time" option can lead to system instability so use that at your own risk (should be fine though!)
+###### - as of version 1.1.1 there is Not in fact an update available. it is bugged and i am too lazy to fix it so just use that as an "app successfully ran" popup
 by default it just has Discord on low and GD on high
 
 ## how 2 use
