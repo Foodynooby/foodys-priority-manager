@@ -1,5 +1,5 @@
 # foody's priority manager
-## SCROLL DOWN FOR HOW TO INSTALL!!!
+### SCROLL ↓ DOWN ↓ FOR HOW TO INSTALL!!!
 
 hi :3 this is a lightweight python script that automatically sets Discord task manager priority to low every 5 seconds because it tanks performance and for some reason anytime you do Anything it resets priority back to high
 
