@@ -14,9 +14,9 @@ you can also optionally use the config.exe to customize what apps you want at wh
 1. download the latest release from **Releases** over to the right
 2. extract the .zip file (i recommend WinRAR or 7-Zip)
 3. (optional but recommended) run foodypriorityconfig.exe to:
-- add or remove apps (find the exact names in the details section of task manager)
 - set their processing priority
 - change scan interval
 - toggle on/off autostart
+- add or remove apps (find the exact names in the details section of task manager)
 4. run foodypriority.exe to start the background process!! ;3c
 ###### (if autostart is enabled, the background process will launch at system startup automatically)
